@@ -1,22 +1,32 @@
 nav {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    gap: 1rem;
-    padding: .8rem;
-    height: 54px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0.8rem;
+  height: 54px;
 
-    & .active{
-        color: darkorange;
-    }
+  & .active {
+    color: darkorange;
+  }
 
-    & a{
-        text-decoration: none;
-        color: white;
-        font-size: 1.3rem;
-   &:hover{
-            color: orange;
-        }
-   
+  & a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    &:hover {
+      color: orange;
     }
+  }
+
+  @media (max-width: 768px) {
+    justify-content: center;
+    flex-direction: column;
+
+    & a {
+      text-align: center;
+    }
+  }
 }

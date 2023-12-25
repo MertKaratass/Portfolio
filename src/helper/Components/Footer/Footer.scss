@@ -24,3 +24,17 @@ footer {
     transform: rotate(90deg);
   }
 }
+
+a {
+  color: white;
+  transition: all 0.8s ease-in-out;
+}
+
+.x:hover,
+.f:hover,
+.t:hover,
+.g:hover {
+  color: orangered;
+  cursor: pointer;
+  transition: all 0.8s ease-in-out;
+}
