@@ -1,0 +1,19 @@
+.project-card {
+  background-color: #272727;
+  display: flex;
+  justify-content: center;
+
+  & .pha {
+    background-color: #414141;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 0 0.5rem 0 0.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 5px solid #ff652f;
+    // width: 100%;
+  }
+  & .pha:nth-child(3) {
+    margin-bottom: 15rem;
+  }
+}

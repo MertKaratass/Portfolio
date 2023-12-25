@@ -1,0 +1,18 @@
+.about-section {
+  text-align: center;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  padding-bottom: 1rem;
+}
+.bio-title {
+  color: orangered;
+  font-size: 3rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+.bio-pha {
+  padding: 0 2rem 0 2rem;
+}

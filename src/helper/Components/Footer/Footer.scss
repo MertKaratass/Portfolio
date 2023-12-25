@@ -1,0 +1,26 @@
+footer {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  & .social {
+    display: flex;
+    gap: 0.8rem;
+    font-size: 2rem;
+  }
+
+  & .social.column {
+    flex-direction: column;
+  }
+
+  & .footer {
+    display: flex;
+  }
+  & .footer.column {
+    transform: rotate(90deg);
+  }
+}
