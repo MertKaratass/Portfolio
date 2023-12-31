@@ -1,5 +1,5 @@
 export const projectImages = [
-  "./img/ReactTodo.gif",
+  "./img/ReactTodo.gif ",
   "./img/appTuto.gif",
   "./img/Animation3.gif",
   "./img/Animation.gif",
